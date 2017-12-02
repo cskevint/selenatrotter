@@ -36,39 +36,25 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
-       <h1>Contact Me</h1>
-        <dl>
-        	<dt><i class="glyphicon glyphicon-home"></i> Address</dt>
-        	<dd>
-        <address>
-        30 N Grant St,<br>
-        San Mateo, CA, 94401, US<br>
-        </address>
-        	</dd>        	
-        </dl>
-        <dl>
-        	<dt><i class="glyphicon glyphicon-envelope"></i> Email</dt>
-        	<dd><a href="mailto:selena09@gmail.com">selena09@gmail.com</a></dd>
-        </dl>
-        <dl>
-        	<dt><i class="glyphicon glyphicon-phone"></i> Phone</dt>
-        	<dd><a href="tel:+1-415-728-8308">(415) 728-8308</a></dd>
-        </dl>
-      </div>
-      <div class="col-lg-6">
+      <div class="col-lg-12">
        <h3>Send me a note</h3>
        <form class="form-horizontal well" action="https://formspree.io/selena09@gmail.com" method="POST">
 		  <div class="form-group">
-			<label for="inputEmail3" class="col-sm-2 control-label">Your Email</label>
+			<label class="col-sm-2 control-label">To:</label>
 			<div class="col-sm-10">
-			  <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email">
+			  <p class="form-control-static"><a href="mailto:selenatrotter@gmail.com">selenatrotter@gmail.com</a></p>
 			</div>
 		  </div>
 		  <div class="form-group">
-			<label for="inputPassword3" class="col-sm-2 control-label">Your Message</label>
+			<label for="inputEmail" class="col-sm-2 control-label">From:</label>
 			<div class="col-sm-10">
-				<textarea class="form-control" id="inputPassword3" name="message"></textarea>
+			  <input type="email" class="form-control" id="inputEmail" placeholder="Your email" name="email">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label for="inputMessage" class="col-sm-2 control-label">Message:</label>
+			<div class="col-sm-10">
+				<textarea class="form-control" id="inputMessage" name="message" placeholder="Your message"></textarea>
 			</div>
 		  </div>
 		  <div class="form-group">
