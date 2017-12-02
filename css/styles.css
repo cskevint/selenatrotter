@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Portfolio page */
+
+#portfolio .item {
+	height: 200px;
+	border: 1px solid red;
+}
+
+#portfolio .bgblack {
+	background: black;
+}
+
+/* About page */
+
+#resume h2 {
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#resume h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#resume h3 span {
+	font-weight: normal;
+	font-style: italic;	
+}
