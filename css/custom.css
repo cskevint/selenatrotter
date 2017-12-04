@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
-.navbar .active a, .navbar .active a:hover, .navbar .active a:active, .navbar .active a:visited {
-	text-decoration: underline;
-}
-.navbar li a:hover {
-	text-decoration: underline !important;
-	cursor: pointer !important;
-}
-
 /*!
  * bootswatch v3.3.7
  * Homepage: http://bootswatch.com

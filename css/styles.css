@@ -1,14 +1,36 @@
 @charset "UTF-8";
 
+/* Global */
+
+a, a:hover, a:visited, a:active {
+	color: gray;
+}
+
+/* Navigation bar */
+
+.navbar .active a, .navbar .active a:hover, .navbar .active a:active, .navbar .active a:visited {
+	text-decoration: underline;
+}
+
+.navbar li a:hover {
+	text-decoration: underline !important;
+	cursor: pointer !important;
+}
+
 /* Portfolio page */
 
 #portfolio .item {
 	height: 200px;
-	border: 1px solid red;
+	overflow: hidden;
+}
+
+#portfolio .item.bordered {
+	background-color: lightgray;
+/*	border: 1px solid gray;*/
 }
 
 #portfolio .bgblack {
-	background: black;
+	background-color: black;
 }
 
 /* About page */
@@ -27,4 +49,9 @@
 #resume h3 span {
 	font-weight: normal;
 	font-style: italic;	
+}
+
+#resume .pdf_download {
+	height: 72px;
+	width: 72px;
 }
