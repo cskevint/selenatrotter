@@ -25,7 +25,6 @@ a[target="_blank"]::after {
 /* Portfolio page */
 
 #portfolio div.item {
-	border-radius: 25px;
 	padding: 0;
 	height: 200px;
 	overflow: hidden;
@@ -34,6 +33,7 @@ a[target="_blank"]::after {
 #portfolio div.item.bordered {
 	background-color: lightgray;
 	border: 1px solid gray;
+	border-radius: 25px;
 }
 
 #portfolio img.transparent {
