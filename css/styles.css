@@ -32,11 +32,8 @@ a[target="_blank"]::after {
 }
 
 #portfolio div.item.bordered {
+	background-color: lightgray;
 	border: 1px solid gray;
-}
-
-#portfolio .bgblack {
-	background-color: black;
 }
 
 #portfolio img.transparent {
