@@ -68,6 +68,11 @@ a[target="_blank"]::after {
 	font-style: italic;	
 }
 
+#resume .photo {
+	width: 108px;
+	height: 122px;
+}
+
 #resume .pdf_download {
 	height: 72px;
 	width: 72px;
