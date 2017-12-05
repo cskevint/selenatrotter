@@ -36,41 +36,44 @@
 </nav>
 <section id="portfolio">
 	<div class="container">
+		<h1>Portfolio</h1>
 		<div class="row">
 		  <div class="col-sm-3 item"></div>
 		  <div class="col-sm-3 item bordered">
-		  	<a href="portfolio/advertisements.html">
+		  	<a href="portfolio/advertisements.html" title="Advertisements">
 		  		<img src="images/portfolio/advertisements/family_seal.jpg" class="img-responsive" alt="Family in front of laughing seal"/>
-			</a>
+				</a>
 		  </div>
 		  <div class="col-sm-3 item"></div>
 		  <div class="col-sm-3 item bordered">
-		  <a href="portfolio/jysep_brochure.html">
+		  <a href="portfolio/jysep_brochure.html" title="Brochure">
 		  	<img src="images/portfolio/jysep_brochure/jysep_brochure_front.jpg" class="img-responsive" alt="JYSEP brochure front"/>
 		  	</a>
 		  </div>
 		</div>
 	  	<div class="row">
 		  <div class="col-sm-3 item bordered">
-		  	<a href="portfolio/movie_poster.html">
+		  	<a href="portfolio/movie_poster.html" title="Movie Poster">
 			  	<img src="images/portfolio/movie_poster/world_order_web_page.jpg" class="img-responsive" alt="World Order Movie Poster"/>
-			</a>  	
+				</a>  	
 		  </div>
 		  <div class="col-sm-3 item"></div>
-		  <div class="col-sm-3 item bgblack"></div>
+		  <div class="col-sm-3 item bordered">
+				<img src="images/coming_soon.jpg" class="img-responsive transparent" class="img-responsive" alt="Coming soon"/>
+			</div>
 		  <div class="col-sm-3 item"></div>
 		</div>
 		<div class="row">
 		  <div class="col-sm-3 item"></div>
 		  <div class="col-sm-3 item bordered">
-		  	<a href="portfolio/parkfinder_app.html">
+		  	<a href="portfolio/parkfinder_app.html" title="Mobile App">
 			  	<img src="images/portfolio/parkfinder_app/app_01_landing_page.png" class="img-responsive" alt="Parkfinder app landing screen"/>
 		  	</a>
 		  </div>
 		  <div class="col-sm-3 item"></div>
 		  <div class="col-sm-3 item bordered">
-		  	<a href="portfolio/to_serve_magazine.html">
-		  		<img src="images/portfolio/to_serve_magazine/magazine_01.png" class="img-responsive" alt="Cover Page of Magazine"/>
+		  	<a href="portfolio/to_serve_magazine.html" title="Magazine">
+		  		<img src="images/portfolio/to_serve_magazine/magazine_01.jpg" class="img-responsive" alt="Cover Page of Magazine"/>
 		    </a>
 		  </div>
 		</div>
@@ -90,5 +93,11 @@
 <script src="js/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+<script>
+	$(function () {
+		console.log('hi')
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+</script>	
 </body>
 </html>

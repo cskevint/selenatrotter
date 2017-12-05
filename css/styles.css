@@ -2,8 +2,13 @@
 
 /* Global */
 
-a, a:hover, a:visited, a:active {
+body a, body a:hover, body a:visited, body a:active {
 	color: gray;
+}
+
+a[target="_blank"]::after {
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+	margin: 0 3px 0 5px;
 }
 
 /* Navigation bar */
@@ -19,15 +24,14 @@ a, a:hover, a:visited, a:active {
 
 /* Portfolio page */
 
-#portfolio .item {
-	border-radius: 50%;
+#portfolio div.item {
+	border-radius: 25px;
 	padding: 0;
 	height: 200px;
 	overflow: hidden;
 }
 
-#portfolio .item.bordered {
-	/* background-color: lightgray; */
+#portfolio div.item.bordered {
 	border: 1px solid gray;
 }
 
@@ -35,7 +39,21 @@ a, a:hover, a:visited, a:active {
 	background-color: black;
 }
 
+#portfolio img.transparent {
+	opacity: 0.5;
+}
+
 /* About page */
+
+#resume ul {
+	padding: 0;
+	margin: 0;
+}
+
+#resume ul li {
+	list-style: none;
+	margin: 0 0 25px;
+}
 
 #resume h2 {
 	font-size: 20px;
